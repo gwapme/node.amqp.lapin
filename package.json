@@ -1,0 +1,30 @@
+{
+  "name": "node.amqp.lapin",
+  "version": "1.0.0",
+  "description": "An implementation of amqplib",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gwapme/node.amqp.lapin.git"
+  },
+  "keywords": [
+    "amqp",
+    "lapin"
+  ],
+  "author": "Nathan Grasset <nathan@gwapit.com> (http://gwapit.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gwapme/node.amqp.lapin/issues"
+  },
+  "homepage": "https://github.com/gwapme/node.amqp.lapin#readme",
+  "dependencies": {
+    "amqplib": "^0.4.1"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+	"mocha": "^2.4.5"
+  }
+}
