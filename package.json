@@ -4,7 +4,7 @@
   "description": "An implementation of amqplib",
   "main": "lib/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
@@ -22,5 +22,9 @@
   "homepage": "https://github.com/gwapme/node.amqp.lapin#readme",
   "dependencies": {
     "amqplib": "^0.4.1"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+	"mocha": "^2.4.5"
   }
 }
